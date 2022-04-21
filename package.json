@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "karma start karma.config.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,14 @@
   "devDependencies": {
     "cssnano": "^5.1.7",
     "jasmine": "^4.1.0",
+    "jasmine-core": "^4.1.0",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-firefox-launcher": "^2.1.2",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-htmlfile-reporter": "^0.3.8",
+    "karma-jasmine": "^5.0.0",
+    "karma-safari-private-launcher": "^1.0.0",
+    "pngjs": "^6.0.0",
     "postcss": "^8.4.12",
     "postcss-cli": "^9.1.0"
   }
